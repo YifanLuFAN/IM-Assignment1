@@ -337,3 +337,23 @@ h2{
     margin-left:5%;
 }
 /* Change the picture style */
+
+.back-button {
+    position: fixed;
+    top: 20px;
+    left: 20px;
+    padding: 10px 16px;
+    background-color: #3d2e2e;
+    color: rgb(243, 241, 241);
+    text-decoration: none;
+    font-family: 'Roboto', sans-serif;
+    font-size: 1rem;
+    border-radius: 6px;
+    box-shadow: 2px 2px 6px rgba(0, 0, 0, 0.5);
+    transition: background-color 0.3s ease;
+    z-index: 999;
+}
+
+.back-button:hover {
+    background-color: #161616;
+}
